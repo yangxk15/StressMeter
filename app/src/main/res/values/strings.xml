@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Xiankai Yang\'s Stress Meter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Bar Header -->
+    <string name="nav_header_main_title">Stress Meter</string>
+    <string name="nav_header_main_description">by Xiankai Yang</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="main_drawer_item_stress_meter">Stress Meter</string>
+    <string name="main_drawer_item_results">Results</string>
+
+    <!-- Record Fragment -->
+    <string name="record_fragment_instructions">Touch the image that best captures how stressed you feel right now</string>
+    <string name="record_fragment_more_images">MORE IMAGES</string>
+
+    <!-- Detail Activity -->
+    <string name="detail_activity_submit">SUBMIT</string>
+    <string name="detail_activity_cancel">CANCEL</string>
+
+    <!-- Result Fragment -->
+    <string name="result_fragment_description">A graph showing your Stress Levels</string>
+    <string name="result_fragment_summary">Summary of Results</string>
+    <string name="result_fragment_time">Time</string>
+    <string name="result_fragment_stress">Stress</string>
+
+</resources>
