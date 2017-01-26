@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 .setVibrate(PATTERN)
                 .setSound(Settings.System.DEFAULT_ALARM_ALERT_URI);
         Notification note = mBuilder.build();
+        note.flags |= Notification.FLAG_SHOW_LIGHTS;
         note.flags |= Notification.FLAG_INSISTENT;
         mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         mNotificationManager.notify(NOTIFICATION_CODE, note);
