@@ -75,6 +75,7 @@ public class RecordFragment extends Fragment {
                                             View view,
                                             int position,
                                             long id) {
+                        MainActivity.mNotificationManager.cancel(MainActivity.NOTIFICATION_CODE);
                         Intent intent = new Intent(getActivity(), DetailActivity.class);
                         intent.putExtra(IMAGE_ID, PSM.getGridById(currentPage + 1)[position]);
                         startActivityForResult(intent, DETAIL_REQUEST_CODE);
